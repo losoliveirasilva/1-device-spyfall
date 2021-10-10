@@ -1,0 +1,23 @@
+h1, h2 {
+  text-align: center;
+}
+
+.config-step {
+  margin-bottom: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.knowRoles {
+  flex-direction: column;
+  max-width: 200px;
+}

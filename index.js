@@ -309,9 +309,9 @@ window.addEventListener("DOMContentLoaded", function() {
     const availableLocations = locations.filter(l => l.checked)
     currentLocation = availableLocations[Math.floor(Math.random() * availableLocations.length)]
 
-    players[Math.floor(Math.random() * players.length)].role = "Spy"
+    players[Math.floor(Math.random() * players.length)].role = "Espião"
 
-    players.filter(p => p.role !== "Spy").forEach(p => {
+    players.filter(p => p.role !== "Espião").forEach(p => {
       p.role = currentLocation.roles[Math.floor(Math.random() * currentLocation.roles.length)]
     })
 
@@ -319,7 +319,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     playerDisplay.innerHTML = currentPlayer.name
 
-    if(currentPlayer.role === "Spy") {
+    if(currentPlayer.role === "Espião") {
       locationDisplay.style.display = "none"
       roleDisplay.style.display = "none"
       spyDisplay.style.display = "block"
@@ -328,8 +328,8 @@ window.addEventListener("DOMContentLoaded", function() {
       roleDisplay.style.display = "block"
       spyDisplay.style.display = "none"
 
-      locationDisplay.innerHTML = `Location: ${currentLocation.name}`
-      roleDisplay.innerHTML = `Role: ${currentPlayer.role}`
+      locationDisplay.innerHTML = `Local: ${currentLocation.name}`
+      roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
     }
 
     configuration.style.display = "none";
@@ -353,7 +353,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
       playerDisplay.innerHTML = currentPlayer.name
 
-      if(currentPlayer.role === "Spy") {
+      if(currentPlayer.role === "Espião") {
         locationDisplay.style.display = "none"
         roleDisplay.style.display = "none"
         spyDisplay.style.display = "block"
@@ -362,8 +362,8 @@ window.addEventListener("DOMContentLoaded", function() {
         roleDisplay.style.display = "block"
         spyDisplay.style.display = "none"
 
-        locationDisplay.innerHTML = `Location: ${currentLocation.name}`
-        roleDisplay.innerHTML = `Role: ${currentPlayer.role}`
+        locationDisplay.innerHTML = `Local: ${currentLocation.name}`
+        roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
       }
     }
   }
@@ -376,9 +376,9 @@ window.addEventListener("DOMContentLoaded", function() {
     const availableLocations = locations.filter(l => l.checked)
     currentLocation = availableLocations[Math.floor(Math.random() * availableLocations.length)]
 
-    players[Math.floor(Math.random() * players.length)].role = "Spy"
+    players[Math.floor(Math.random() * players.length)].role = "Espião"
 
-    players.filter(p => p.role !== "Spy").forEach(p => {
+    players.filter(p => p.role !== "Espião").forEach(p => {
       p.role = currentLocation.roles[Math.floor(Math.random() * currentLocation.roles.length)]
     })
 
@@ -386,7 +386,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     playerDisplay.innerHTML = currentPlayer.name
 
-    if(currentPlayer.role === "Spy") {
+    if(currentPlayer.role === "Espião") {
       locationDisplay.style.display = "none"
       roleDisplay.style.display = "none"
       spyDisplay.style.display = "block"
@@ -395,8 +395,8 @@ window.addEventListener("DOMContentLoaded", function() {
       roleDisplay.style.display = "block"
       spyDisplay.style.display = "none"
 
-      locationDisplay.innerHTML = `Location: ${currentLocation.name}`
-      roleDisplay.innerHTML = `Role: ${currentPlayer.role}`
+      locationDisplay.innerHTML = `Local: ${currentLocation.name}`
+      roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
     }
 
     preparation.style.display = "block"

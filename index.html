@@ -13,18 +13,18 @@
       <h1>1-Device Spyfall</h1>
 
       <div id="about">
-        <h2>About</h2>
+        <h2>Sobre</h2>
 
         <div class="center">
-          <button id="goToConfigurationBtn">Go to configuration</button>
+          <button id="goToConfigurationBtn">Ir às configurações</button>
         </div>
       </div>
 
       <div id="configuration" style="display: none;">
-        <h2>Configuration</h2>
+        <h2>Configurações</h2>
 
         <div class="config-step">
-          <h3>Player name:</h3>
+          <h3>Nome do jogador:</h3>
 
           <div>
             <input type="text" id="addPlayerInput" name="addPlayerInput">
@@ -35,7 +35,7 @@
         </div>
 
         <div class="config-step">
-          <h3>Game duration (minutes):</h3>
+          <h3>Duração do jogo (minutos):</h3>
 
           <div>
             <input type="number" id="gameDurationInput" name="gameDurationInput" min="0" step="1" value="8"/>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="config-step">
-          <h3>Locations:</h3>
+          <h3>Locais:</h3>
 
           <div style="margin-bottom: 10px;">
             <input type="text" id="addLocationInput" name="addLocationInput">
@@ -56,34 +56,34 @@
         </div>
 
         <div class="center">
-          <button id="finishConfigurationBtn">Finish configuration</button>
+          <button id="finishConfigurationBtn">Finalizar configurações</button>
         </div>
       </div>
 
       <div id="game" style="display: none;">
         <div id="preparation">
-          <h2>Preparation phase</h2>
+          <h2>Fase de Preparação</h2>
 
           <div id="knowYourRole" class="center" style="flex-direction: column;">
-            <h3 id="player">Player</h3>
+            <h3 id="player">Jogador</h3>
 
-            <button id="openInfo" style="max-width: 200px; align-self: center; margin-bottom: 10px;">Open Information</button>
+            <button id="openInfo" style="max-width: 200px; align-self: center; margin-bottom: 10px;">Abrir informações</button>
 
             <div id="playerInfo" style="display: none; margin-bottom: 10px;">
-              <span id="spy" style="display: none;">You are the SPY!</span>
-              <span id="location">Location</span>
-              <span id="role">Role</span>
+              <span id="spy" style="display: none;">Você é o ESPIÃO!</span>
+              <span id="location">Local</span>
+              <span id="role">Papel</span>
             </div>
 
-            <button id="next" style="max-width: 200px; align-self: center;">Next</button>
+            <button id="next" style="max-width: 200px; align-self: center;">Próximo</button>
           </div>
         </div>
 
         <div id="inGame" style="display: none;">
-          <h2>Game Started!</h2>
+          <h2>Jogo Iniciado!</h2>
 
           <div class="center">
-            <button id="newGame" style="max-width: 200px; align-self: center;">New Game</button>
+            <button id="newGame" style="max-width: 200px; align-self: center;">Novo Jogo</button>
           </div>
         </div>
       </div>

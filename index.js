@@ -170,11 +170,6 @@ window.addEventListener("DOMContentLoaded", async function() {
       roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
     }
 
-    availableLocations.forEach(loc => {
-      locationsUlNormal.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
-      locationsUlInverted.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
-    })
-
     preparation.style.display = "block"
     inGame.style.display = "none"
   }

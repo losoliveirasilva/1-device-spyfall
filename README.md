@@ -1,6 +1,6 @@
 # 1-Device Spyfall
 
 ## TODO
-[] Add custom locations and roles
-[] Move locations to another file (with multiple languages)
-[] Add native game duration countdown
+- [ ] Add custom locations and roles
+- [ ] Move locations to another file (with multiple languages)
+- [ ] Add native game duration countdown

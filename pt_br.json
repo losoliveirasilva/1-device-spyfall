@@ -1,0 +1,325 @@
+[
+  {
+    "name":"Avião do json",
+    "roles":[
+      "Passageiro de Primeira Classe",
+      "Agente Federal Disfarçado",
+      "Mecânico",
+      "Passageiro da Classe Econômica",
+      "Comissário de Bordo",
+      "Co-Piloto",
+      "Piloto"
+    ]
+  },
+  {
+    "name":"Banco",
+    "roles":[
+      "Motorista de Carro Forte",
+      "Gerente",
+      "Consultor Financeiro",
+      "Cliente",
+      "Assaltante",
+      "Guarda de Segurança",
+      "Caixa"
+    ]
+  },
+  {
+    "name":"Praia",
+    "roles":[
+      "Garçom de Praia",
+      "Surfista",
+      "Salva-vidas",
+      "Trombadinha",
+      "Banhista",
+      "Fotográfo",
+      "Sorveteiro"
+    ]
+  },
+  {
+    "name":"Teatro",
+    "roles":[
+      "Recepcionista",
+      "Assistente de Palco",
+      "Caixa",
+      "Espectador",
+      "Diretor",
+      "Ator",
+      "Figurante"
+    ]
+  },
+  {
+    "name":"Cassino",
+    "roles":[
+      "Bartender",
+      "Chefe da Segurança",
+      "Gerente",
+      "Malandro",
+      "Mesário",
+      "Apostador"
+    ]
+  },
+  {
+    "name":"Catedral",
+    "roles":[
+      "Padre",
+      "Pedinte",
+      "Pecador",
+      "Beato",
+      "Turista",
+      "Dizimista",
+      "Coralista"
+    ]
+  },
+  {
+    "name":"Circo",
+    "roles":[
+      "Acrobata",
+      "Domador",
+      "Mágico",
+      "Espectador",
+      "Engolidor de Espadas",
+      "Palhaço",
+      "Malabarista"
+    ]
+  },
+  {
+    "name":"Festa da Empresa",
+    "roles":[
+      "Animador de Festa",
+      "Gerente",
+      "Bicão",
+      "Dono",
+      "Secretária",
+      "Contador",
+      "Entregador"
+    ]
+  },
+  {
+    "name":"Exército das Cruzadas",
+    "roles":[
+      "Monge",
+      "Prisioneiro Pagão",
+      "Servo",
+      "Bispo",
+      "Escudeiro",
+      "Arqueiro",
+      "Cavaleiro"
+    ]
+  },
+  {
+    "name":"SPA",
+    "roles":[
+      "Cliente",
+      "Estilista",
+      "Massagista",
+      "Manicure",
+      "Maquiador",
+      "Dermatologista",
+      "Esteticista"
+    ]
+  },
+  {
+    "name":"Embaixada",
+    "roles":[
+      "Segurança",
+      "Ministro",
+      "Embaixador",
+      "Oficial do Governo",
+      "Turista",
+      "Refugiado",
+      "Diplomata"
+    ]
+  },
+  {
+    "name":"Hospital",
+    "roles":[
+      "Enfermeira",
+      "Médico",
+      "Anestesista",
+      "Residente",
+      "Paciente",
+      "Terapeuta",
+      "Cirurgião"
+    ]
+  },
+  {
+    "name":"Hotel",
+    "roles":[
+      "Recepcionista",
+      "Segurança",
+      "Gerente",
+      "Arrumadeira",
+      "Hóspede",
+      "Bartender",
+      "Porteiro"
+    ]
+  },
+  {
+    "name":"Base Militar",
+    "roles":[
+      "Desertor",
+      "Coronel",
+      "Médico",
+      "Soldado",
+      "Atirador de Elite",
+      "Oficial do Exército",
+      "Operador de Tanque de Guerra"
+    ]
+  },
+  {
+    "name":"Estúdio de Filmagem",
+    "roles":[
+      "Dublê",
+      "Engenheiro de Som",
+      "Câmera",
+      "Diretor",
+      "Figurinista",
+      "Ator",
+      "Produtor"
+    ]
+  },
+  {
+    "name":"Cruzeiro Marítmo",
+    "roles":[
+      "Passageiro Ricaço",
+      "Cozinheiro",
+      "Capitão",
+      "Bartender",
+      "Músico",
+      "Garçom",
+      "Mecânico"
+    ]
+  },
+  {
+    "name":"Trem de Passageiros",
+    "roles":[
+      "Mecânico",
+      "Segurança",
+      "Comissário de Bordo",
+      "Passageiro",
+      "Chef e Cozinha",
+      "Engenheiro",
+      "Maquinista"
+    ]
+  },
+  {
+    "name":"Navio Pirata",
+    "roles":[
+      "Cozinheiro",
+      "Marinheiro",
+      "Escravo",
+      "Canhoneiro",
+      "Prisioneiro Acorrentado",
+      "Marujo",
+      "Capitão"
+    ]
+  },
+  {
+    "name":"Estação Polar",
+    "roles":[
+      "Médico",
+      "Geologista",
+      "Líder da Expedição",
+      "Biologista",
+      "Operador de Rádio",
+      "Hidrologista",
+      "Meteorologista"
+    ]
+  },
+  {
+    "name":"Delagacia de Polícia",
+    "roles":[
+      "Detetive",
+      "Advogado",
+      "Jornalista",
+      "Delegado",
+      "Escrivão",
+      "Policial",
+      "Bandido"
+    ]
+  },
+  {
+    "name":"Restaurante",
+    "roles":[
+      "Músico",
+      "Cliente",
+      "Segurança (porteiro)",
+      "Recepcionista",
+      "Chef de Cozinha",
+      "Crítico de Gastronomia",
+      "Garçom"
+    ]
+  },
+  {
+    "name":"Escola",
+    "roles":[
+      "Professor de Ed. Física",
+      "Estudante",
+      "Diretor",
+      "Segurança",
+      "Faxineiro",
+      "Tia da Merenda",
+      "Zelador"
+    ]
+  },
+  {
+    "name":"Oficina Mecânica",
+    "roles":[
+      "Gerente",
+      "Borracheiro",
+      "Ciclista",
+      "Motorista",
+      "Operador de Lava Rápido",
+      "Eletricista",
+      "Mecânico"
+    ]
+  },
+  {
+    "name":"Estação Espacial",
+    "roles":[
+      "Engenheiro",
+      "Alienígena",
+      "Turista Espacial",
+      "Piloto",
+      "Comandante",
+      "Cientista",
+      "Médico"
+    ]
+  },
+  {
+    "name":"Submarino",
+    "roles":[
+      "Cozinheiro",
+      "Comandante",
+      "Operador de Sonar",
+      "Técnico de Eletrônica",
+      "Marujo",
+      "Operador de Rádio",
+      "Navegador"
+    ]
+  },
+  {
+    "name":"Supermercado",
+    "roles":[
+      "Cliente",
+      "Caixa",
+      "Açougueiro",
+      "Faxineiro",
+      "Segurança",
+      "Demonstrador de Amostra Grátis",
+      "Repositor de Mercadoria"
+    ]
+  },
+  {
+    "name":"Faculdade",
+    "roles":[
+      "Veterano",
+      "Professor",
+      "Reitor",
+      "Psicólogo",
+      "Zelador",
+      "Calouro",
+      "Faxineiro"
+    ]
+  }
+]

@@ -2,5 +2,6 @@
 
 ## TODO
 - [ ] Add custom locations and roles
-- [ ] Move locations to another file (with multiple languages)
+- [x] Move locations to another file (with multiple languages)
+- [ ] Add language selector
 - [ ] Add native game duration countdown

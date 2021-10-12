@@ -21,3 +21,11 @@ h1, h2 {
   flex-direction: column;
   max-width: 200px;
 }
+
+.locations-ul {
+  columns: 3;
+}
+
+.text-180 {
+  transform: rotate(-180deg);
+}

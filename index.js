@@ -21,6 +21,8 @@ window.addEventListener("DOMContentLoaded", function() {
   const preparation = document.getElementById("preparation")
   const inGame = document.getElementById("inGame")
   const newGame = document.getElementById("newGame")
+  const locationsUlNormal = document.getElementById("locations-ul-normal")
+  const locationsUlInverted = document.getElementById("locations-ul-inverted")
 
   const players = []
   let gameDuration = 8
@@ -332,6 +334,11 @@ window.addEventListener("DOMContentLoaded", function() {
       roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
     }
 
+    availableLocations.forEach(loc => {
+      locationsUlNormal.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
+      locationsUlInverted.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
+    })
+
     configuration.style.display = "none";
     game.style.display = "block"
   }
@@ -398,6 +405,11 @@ window.addEventListener("DOMContentLoaded", function() {
       locationDisplay.innerHTML = `Local: ${currentLocation.name}`
       roleDisplay.innerHTML = `Papel: ${currentPlayer.role}`
     }
+
+    availableLocations.forEach(loc => {
+      locationsUlNormal.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
+      locationsUlInverted.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
+    })
 
     preparation.style.display = "block"
     inGame.style.display = "none"

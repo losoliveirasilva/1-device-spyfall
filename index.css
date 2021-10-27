@@ -12,6 +12,11 @@ button {
   padding: 0px 20px;
 }
 
+.page-title {
+  display: flex;
+  flex-direction: column;
+}
+
 .page-title > h1, h2 {
   text-align: center;
 }
@@ -26,6 +31,13 @@ button {
   margin-bottom: 5px;
   font-style: italic;
   font-weight: 400;
+}
+
+.page-title > img {
+  text-align: center;
+  align-self: center;
+  width: 50px;
+  margin-top: 20px;
 }
 
 #about > p {
@@ -63,17 +75,11 @@ button {
   max-width: 200px;
 }
 
-.locations-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .locations-list {
 	display: flex;
 	flex-wrap: wrap;
   margin-bottom: 10px;
-  flex-grow: 1;
+  min-height: 100vh;
 }
 
 .locations-list > div {
@@ -89,6 +95,18 @@ button {
 /*.locations-ul {
   columns: 3;
 }*/
+
+@keyframes rotate-locations {
+  0%   {transform: rotate(0deg);}
+  48%  {transform: rotate(0deg);}
+  50%  {transform: rotate(180deg);}
+  98% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+#locations-ul {
+  animation: rotate-locations 30s linear infinite;
+}
 
 .text-180 {
   transform: rotate(-180deg);

@@ -21,8 +21,7 @@ window.addEventListener("DOMContentLoaded", async function() {
   const preparation = document.getElementById("preparation")
   const inGame = document.getElementById("inGame")
   const newGame = document.getElementById("newGame")
-  const locationsUlNormal = document.getElementById("locations-ul-normal")
-  const locationsUlInverted = document.getElementById("locations-ul-inverted")
+  const locationsUl = document.getElementById("locations-ul")
 
   const players = []
   let gameDuration = 8
@@ -99,8 +98,7 @@ window.addEventListener("DOMContentLoaded", async function() {
     }
 
     availableLocations.forEach(loc => {
-      locationsUlNormal.insertAdjacentHTML('beforeend', `<div class="location" id="${loc.name}">${loc.name}</div>`);
-      locationsUlInverted.insertAdjacentHTML('beforeend', `<div class="location" id="${loc.name}">${loc.name}</div>`);
+      locationsUl.insertAdjacentHTML('beforeend', `<div class="location" id="${loc.name}">${loc.name}</div>`);
     })
 
     configuration.style.display = "none";

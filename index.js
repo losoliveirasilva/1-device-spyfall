@@ -99,8 +99,8 @@ window.addEventListener("DOMContentLoaded", async function() {
     }
 
     availableLocations.forEach(loc => {
-      locationsUlNormal.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
-      locationsUlInverted.insertAdjacentHTML('beforeend', `<li id="${loc.name}">${loc.name}</li>`);
+      locationsUlNormal.insertAdjacentHTML('beforeend', `<div class="location" id="${loc.name}">${loc.name}</div>`);
+      locationsUlInverted.insertAdjacentHTML('beforeend', `<div class="location" id="${loc.name}">${loc.name}</div>`);
     })
 
     configuration.style.display = "none";

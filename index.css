@@ -84,12 +84,12 @@ button {
 
 .locations-list > div {
 	flex-grow: 1;
-  width: 30%;
+  width: calc(33% - 9px);
   min-height: 30px;
-  border-bottom: 1px solid rgb(230, 230, 230);
-  align-self: flex-end;
-  padding: 5px 0px;
-  margin: 0px 5px;
+  align-self: center;
+  text-align: center;
+  padding: 5px 5px;
+  word-break: break-word;
 }
 
 /*.locations-ul {
